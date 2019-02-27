@@ -61,7 +61,7 @@ res = dict()
 #     res = json.load(infile)
 res = query_aws()
 
-workbook = xlsxwriter.Workbook('pricelist.xlsx')
+workbook = xlsxwriter.Workbook('instancesheet.xlsx')
 
 bold = workbook.add_format({'bold': True})
 
