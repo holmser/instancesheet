@@ -4,7 +4,7 @@ This is a quick-and-dirty script to generate a spreadsheet populated with instan
 
 ## Usage
 
-```
+```sh
 pip install -r requirements.txt
 python instancesheet.py
 # instancesheet.xlsx will be generated in the current directory
